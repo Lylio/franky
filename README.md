@@ -18,7 +18,7 @@ A multi-purpose Spring Boot app featuring:
 
 #### Docker Launch
 1. `docker build -t canary-services .`
-2. `docker run -p 8080:8080 bugout-services:latest`
+2. `docker run -p 8080:8080 canary-services:latest`
 3. Navigate to http://localhost:8080
 
 #### Gradle Launch
