@@ -2,11 +2,20 @@ plugins {
     id 'org.springframework.boot' version '2.4.4'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
+    id "org.sonarqube" version "2.7"
 }
 
 group = 'com.lylechristine'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
+
+sonarqube {
+    properties {
+        property 'sonar.projectName', 'Canary-Services'
+        property 'sonar.host.url', 'http://localhost:9000'
+        property 'sonar.login', '819ad7ac8aa8b835728a5180d8700be46efeb0c6'
+    }
+}
 
 repositories {
     mavenCentral()
@@ -16,6 +25,13 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation group: 'org.sonarsource.sonarqube', name: 'sonar-plugin-api', version: '8.7.1.42226'
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: '3.0.3'
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-bootstrap', version: '3.0.2'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.4.5'
+    implementation group: 'io.micrometer', name: 'micrometer-registry-prometheus', version: '1.6.6'
+    compile 'io.prometheus:simpleclient_common:latest.release'
+
 }
 
 test {

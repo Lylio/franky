@@ -1,0 +1,24 @@
+
+# Test Message for http://localhost:8080/api/v1/config
+message.output: "This message is the default message in application.yml. No data has been pulled from GitHub."
+
+# Actuator Endpoint Management
+management:
+  security:
+    enabled: false
+  endpoint:
+    info:
+      enabled: true
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+    health:
+      show-details: always
+      enabled: true
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"

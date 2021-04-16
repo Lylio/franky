@@ -1,0 +1,9 @@
+spring:
+  banner:
+    location: banner.txt
+  application:
+    name: canary-services
+  cloud:
+    config:
+      uri: https://configaro.lylio.tech
+
