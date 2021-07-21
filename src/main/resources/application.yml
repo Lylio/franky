@@ -1,6 +1,6 @@
 
 # Test Message for http://localhost:8080/api/v1/config
-message.output: "This message is the default message in application.yml. No data has been pulled from GitHub."
+message.output: "This is the default message in application.yml. No data has been pulled from Configaro/GitHub."
 
 # Actuator Endpoint Management
 management:

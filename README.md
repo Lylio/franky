@@ -16,7 +16,8 @@ A multi-purpose Spring Boot app featuring:
 
 **Configaro Server**  
 Configaro (configaro.lylio.tech) is a Spring Cloud Config Server which can pull secret application properties from a private GitHub repo (uri found in bootstrap.yml). To
-test this functionality, launch canary-services (`gradle bootRun`) then confirm the message returned from the endpoint http://localhost:8080/api/v1/config
+test this functionality, launch canary-services (`gradle bootRun`) then confirm the message returned from the endpoint http://localhost:8080/api/v1/config  
+If the Configaro server is offline, the default config message from application.yml will display.
 - - -
 
 - MQ

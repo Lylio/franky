@@ -12,17 +12,14 @@ public class HelloController {
     @Value("${message.output}")
     String message;
 
-    @Value("${sonar.login}")
-    String sonarLogin;
-
     @GetMapping("/greeting")
     public String Greeting() {
-        return "Hello from Canary Services!";
+        return "<h1>Hello from Canary Services!</h1>";
     }
 
     @GetMapping("/config")
     public String Config() {
-        return sonarLogin;
+        return "<h1>" + message + "</h1>";
     }
 
 
