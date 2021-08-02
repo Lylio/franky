@@ -1,7 +1,7 @@
 ![](https://github.com/Lylio/image-repo/blob/master/logos/spring-boot.png?raw=true)
 ![](https://github.com/Lylio/image-repo/blob/master/logos/canary.png?raw=true)
 # Canary-Services
-## Spring Boot Test Microservice
+## A Spring Boot Test Microservice
 
 ### Description
 A multi-purpose Spring Boot app featuring:
@@ -20,12 +20,6 @@ test this functionality, launch canary-services (`gradle bootRun`) then confirm 
 If the Configaro server is offline, the default config message from application.yml will display.
 - - -
 
-- MQ
-- Gradle build that publishes to Nexus
-- Flyway
-- Kafka
-
-- - -
 
 **Actuator & Prometheus**  
 Actuator has been enabled in application.yml. A health check can be performed on the running app with http://localhost:8080/actuator/health which should return {"status":"UP"}  
@@ -39,12 +33,9 @@ Actuator has been enabled in application.yml. A health check can be performed on
 | http://localhost:8080/actuator/metrics/jvm.memory.used  | Example return value of a specific metric| 
 | http://localhost:8080/actuator/prometheus | List of metrics provided by Prometheus| 
 - - -
-- ESB maybe?
-
-- - -
 
 **Unit Tests**  
-  A couple of basics unit tests are included. Simply run with `gradle test`
+  Simply run with `gradle test`
 - - -
 
 #### Docker Launch
