@@ -55,6 +55,17 @@ Actuator has been enabled in application.yml. A health check can be performed on
 
 - - -
 
+**Logging**
+
+| Endpoint       | Data     |
+| :------------- | :----------: |
+| http://localhost:8080/api/v1/logger | Enndpoint of the LoggingController|
+
+<br>| http://localhost:8080/actuator/metrics   | Actuator's metrics to interrogate the Spring Boot app|
+| http://localhost:8080/actuator/metrics/jvm.memory.used  | Example return value of a specific metric|
+| http://localhost:8080/actuator/prometheus | List of metrics provided by Prometheus|
+<hr>
+
 
 **Unit Tests**  
   Simply run with `gradle test`
