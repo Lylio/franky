@@ -4,7 +4,19 @@
 ## A Spring Boot Test Microservice
 
 ### Description
-A multi-purpose Spring Boot app featuring:
+A multi-purpose Spring Boot app:
+
+#### Gradle Launch
+1. `gradle bootRun`
+2. Open browser at http://localhost:8080/api/v1/greeting
+
+#### Docker Launch
+1. `docker build -t canary-services .`
+2. `docker run -p 8080:8080 canary-services:latest`
+3. Navigate to http://localhost:8080/api/v1/greeting
+
+
+### Featuring:
 
 **SonarQube**
 1. Ensure local SonarQube server is running on http://localhost:9000
@@ -71,11 +83,6 @@ Actuator has been enabled in application.yml. A health check can be performed on
 <br>
 <hr>
 
-#### Docker Launch
-1. `docker build -t canary-services .`
-2. `docker run -p 8080:8080 canary-services:latest`
-3. Navigate to http://localhost:8080/api/v1/greeting
 
-#### Gradle Launch
-1. `gradle bootRun`
-2. Open browser at http://localhost:8080/api/v1/greeting
+
+
