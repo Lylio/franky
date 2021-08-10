@@ -14,7 +14,7 @@ public class LoggingController {
     @Value("${logging.level.root}")
     private String logLevel;
 
-    @RequestMapping("/api/v1/logger")
+    @RequestMapping("/api/v2/logger")
     public String logIndex() {
         logger.trace("A trace message");
         logger.debug("A debug message");
