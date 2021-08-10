@@ -71,7 +71,7 @@ Actuator has been enabled in application.yml. A health check can be performed on
 
 | Endpoint       | Data     |
 | :------------- | :----------: |
-| http://localhost:8080/api/v1/logger | Endpoint of the LoggingController|
+| http://localhost:8080/api/v2/logger | Endpoint of the LoggingController|
 
 <br>
 <hr>
