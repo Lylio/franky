@@ -8,7 +8,7 @@ A multi-purpose Spring Boot app:
 
 #### Gradle Launch
 1. `gradle bootRun`
-2. Open browser at http://localhost:8080/api/v1/greeting
+2. Open browser at http://localhost:8080/api/v1/welcome
 
 #### Docker Launch
 1. `docker build -t canary-services .`
