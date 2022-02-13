@@ -1,10 +1,10 @@
 ![](https://github.com/Lylio/image-repo/blob/master/logos/spring-boot.png?raw=true)
-![](https://github.com/Lylio/image-repo/blob/master/logos/franky.png?raw=true)
+![](https://github.com/Lylio/image-repo/blob/master/logos/franky-02.png?raw=true)
 # Franky
 ## A Spring Boot Test Microservice
 
 ### Description
-A multi-purpose Spring Boot app:
+Franky is a creaky test Spring Boot app for screwing in and bolting on random experimental components.
 
 #### Gradle Launch
 1. `gradle bootRun`

@@ -25,8 +25,7 @@ public class SwaggerConfig {
 
     private ApiInfo getApiInformation(){
         return new ApiInfo("Franky -  REST API",
-                "Franky is the app that's had all sorts bolted and screwed onto it for the sake of testing and " +
-                        "experimentation.",
+                "Franky is a creaky test Spring Boot app for screwing in and bolting on random experimental components.",
                 "1.0",
                 "API Terms of Service URL",
                 new Contact("Lyle Christine", "https://github.com/lylio", "nope@nope.com"),

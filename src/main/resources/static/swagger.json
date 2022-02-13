@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "Franky is the app that's had all sorts bolted and screwed onto it for the sake of testing and experimentation.",
+    "description": "Franky is a creaky test Spring Boot app for screwing in and bolting on random experimental components.",
     "version": "1.0",
     "title": "Franky -  REST API",
     "termsOfService": "API Terms of Service URL",
