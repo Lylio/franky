@@ -1,6 +1,6 @@
 ![](https://github.com/Lylio/image-repo/blob/master/logos/spring-boot.png?raw=true)
-![](https://github.com/Lylio/image-repo/blob/master/logos/canary.png?raw=true)
-# Canary-Services
+![](https://github.com/Lylio/image-repo/blob/master/logos/franky.png?raw=true)
+# Franky
 ## A Spring Boot Test Microservice
 
 ### Description
@@ -11,8 +11,8 @@ A multi-purpose Spring Boot app:
 2. Open browser at http://localhost:8080/api/v1/welcome
 
 #### Docker Launch
-1. `docker build -t canary-services .`
-2. `docker run -p 8080:8080 canary-services:latest`
+1. `docker build -t franky .`
+2. `docker run -p 8080:8080 franky:latest`
 3. Navigate to http://localhost:8080/api/v1/greeting
 
 
@@ -42,8 +42,8 @@ A multi-purpose Spring Boot app:
 
 **Configaro Server**
 
-Configaro (configaro.lylio.tech) is a Spring Cloud Config Server which can pull secret application properties from a private GitHub repo (uri found in bootstrap.yml). To
-test this functionality, launch canary-services (`gradle bootRun`) then confirm the message returned from the endpoint http://localhost:8080/api/v1/config  
+Configaro (https://configaro.herokuapp.com) is a Spring Cloud Config Server which can pull secret application properties from a private GitHub repo (uri found in bootstrap.yml). To
+test this functionality, launch Franky (`gradle bootRun`) then confirm the message returned from the endpoint http://localhost:8080/api/v1/config  
 If the Configaro server is offline, the default config message from application.yml will display.
 
 <br>

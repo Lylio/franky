@@ -1,4 +1,4 @@
-package com.lylechristine.canaryservices.controllers;
+package com.lylechristine.franky.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,7 +1,7 @@
-package com.lylechristine.canaryservices;
+package com.lylechristine.franky;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import com.lylechristine.canaryservices.controllers.HelloController;
+import com.lylechristine.franky.controllers.HelloController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

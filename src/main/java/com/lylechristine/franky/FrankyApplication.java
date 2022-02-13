@@ -1,4 +1,4 @@
-package com.lylechristine.canaryservices;
+package com.lylechristine.franky;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 
-public class CanaryServicesApplication {
+public class FrankyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CanaryServicesApplication.class, args);
+        SpringApplication.run(FrankyApplication.class, args);
     }
 
 }

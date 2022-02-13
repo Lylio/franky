@@ -1,9 +1,9 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "Canary Services is the poor bird that lets us devs know if it's save to proceed further into the darkness of the codebase.",
+    "description": "Franky is the app that's had all sorts bolted and screwed onto it for the sake of testing and experimentation.",
     "version": "1.0",
-    "title": "Canary Services -  REST API",
+    "title": "Franky -  REST API",
     "termsOfService": "API Terms of Service URL",
     "contact": {
       "name": "Lyle Christine",

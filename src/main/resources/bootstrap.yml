@@ -2,8 +2,8 @@ spring:
   banner:
     location: banner.txt
   application:
-    name: canary-services
+    name: franky
  # cloud:
   #  config:
-   #   uri: https://configaro.lylio.tech
+   #   uri: https://configaro.herokuapp.com
 

@@ -1,10 +1,10 @@
-package com.lylechristine.canaryservices;
+package com.lylechristine.franky;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CanaryServicesApplicationTests {
+class FrankyApplicationTests {
 
     @Test
     void contextLoads() {

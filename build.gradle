@@ -11,7 +11,7 @@ sourceCompatibility = '1.8'
 
 sonarqube {
     properties {
-        property 'sonar.projectName', 'Canary-Services'
+        property 'sonar.projectName', 'Franky'
         property 'sonar.host.url', 'http://localhost:9000'
         property 'sonar.login', 'bbec2fcacd3b918440d51cafcc91c7b35741666e'
     }
